@@ -1,0 +1,173 @@
+﻿
+
+body {
+    direction: rtl;
+    background-color: #FFF9C4;
+    background-image: url('../images/4k-Abstract-Background-Wallpaper-10002.jpg');
+}
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background: rgba(201,246,243,0.4);
+    color: darkblue;
+    filter: alpha(opacity=50);
+    font-family: 'Varela Round';
+}
+
+/*navigation*/
+
+ul{ 
+    list-style:none;
+}
+header{
+    display:block;
+    height:130px;
+    
+}
+nav ul li{
+    display:inline-block;
+    float:right;
+}
+    nav ul li a {
+        border: 2px solid black;
+        width: 140px;
+        height: 25px;
+        background-image: url(../images/download.jpg);
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        -webkit-border-radius: 140px 25px;
+        border-radius: 140px 25px;
+        -webkit-transition: width 1s ease-in-out;
+        -moz-transition: width 1s ease-in-out;
+        -ms-transition: width 1s ease-in-out;
+        -o-transition: width 1s ease-in-out;
+        transition: width 1s ease-in-out;
+        color:black;
+    }
+
+        nav ul li a:visited {
+            color: black;
+        }
+
+        nav ul li a:hover {
+            background-image: url('../images/225.jpg');
+            color: turquoise;
+            -webkit-transition: width 1s ease-in-out;
+            -moz-transition: width 1s ease-in-out;
+            -ms-transition: width 1s ease-in-out;
+            -o-transition: width 1s ease-in-out;
+            transition: width 1s ease-in-out;
+            width: 170px;
+            
+        }
+
+.navcurrent {
+    background-image: url('../images/e8aa6277941794ba79005e43d9e5d2ad-colorful-crystal-polygonal-background.jpg');
+    color:gold;
+}
+    /*headling*/
+h1 {
+    display: block;
+    margin: 30px 20px 30px 0px;
+    font-size: 30pt;
+    text-shadow: 20px 20px 20px #FFFFFF;
+    color: 53000c;
+}
+h2 {
+    display: block;
+    margin: 10px 0px 10px 0px;
+    
+    font-size: larger;
+    color: 53000c;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: 53000c;
+}
+
+
+}
+/*paragraphs*/
+p {
+    margin-bottom: 10px;
+    color: 53000c;
+}
+/*images*/
+img {
+    height: 300px;
+    width: auto;
+
+}
+/*final project*/
+#projectOrig{
+    margin: 10px;
+}
+
+#projectMe {
+    margin:10px;
+}
+#video{
+    margin:10px;
+}
+/*restor*/
+.old {
+    margin-right: 10px;
+};
+}
+
+#play {
+    width: 60px;
+    height: 50px;
+    margin-right: 5px;
+}
+/*self*/
+#selfP {
+    width: auto;
+    height: 450px;
+    margin-right: 10px;
+}
+/*index*/
+#emoji{
+    background-image:url(../images/emoji.png);
+    width:412px;
+    height:345px;
+}
+#emoji:hover {
+    background-image: url(../images/emoji.png);
+    background-position-y: 820px;
+    width: 412px;
+    height: 392px;
+}
+#emoji:active {
+    background-image: url(../images/emoji.png);
+    background-position-y: 400px;
+    width: 412px;
+    height: 398px;
+}
+/*footer*/
+#whatsAppIcon
+{
+    width:40px;
+    height:40px;
+}
+#facebook
+{
+    width: 40px;
+    height: 40px;
+}
+/*audio*/
+audio {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+}
+/*footer*/
+#whatsapp:visited{
+    color:black;
+}
+
+
